@@ -24,18 +24,21 @@ const projects = [
     name: 'mission_db',
     description: (
       <>
-        This is a team project developed during the course "Teamprojekt" ( Winter Semester 2024/25 ) for the [@brendel-group](https://github.com/brendel-group).<br />
+        This is a team project developed during the course Teamprojekt ( Winter Semester 2024/25 ) for the <a href="https://github.com/brendel-group" target="_blank" rel="noopener noreferrer">brendel-group</a>.<br />
         mission_db is a web-based application to work with and organize Polybots missions.<br />
+        <br />
         I was primarily responsible for implementing the frontend API integration using TypeScript (fetch API), and also contributed to the user interface and other aspects of the application.<br />
+        <br />
         This project was a collaborative effort with a team of 6 students from the Eberhard Karls Universität Tübingen, Germany.<br />
-        Collaborated with:<br/>
-        <a href="https://github.com/sh1negg" target="_blank" rel="noopener noreferrer">Felix Mycka</a>,{' '}
+        Collaborated with:{' '}<a href="https://github.com/sh1negg" target="_blank" rel="noopener noreferrer">Felix Mycka</a>,{' '}
         <a href="https://github.com/pascal260303" target="_blank" rel="noopener noreferrer">Pascal Kuppler</a>,{' '}
         <a href="https://github.com/SamuABC" target="_blank" rel="noopener noreferrer">Samuel Hempelmann</a>,{' '}
-        <a href="https://github.com/DerSimi" target="_blank" rel="noopener noreferrer">Simon Rappenecker</a>, and{' '}
+        <a href="https://github.com/DerSimi" target="_blank" rel="noopener noreferrer">Simon Rappenecker</a> and{' '}
         <a href="https://github.com/s-rappold" target="_blank" rel="noopener noreferrer">Simon Rappold</a>.
       </>
     ),
+    stack: ['Python', 'TypeScript', 'Django', 'Rest API', 'PostgreSQL'],
+    sourceCode: 'https://github.com/brendel-roup/mission_db',
   },
 ]
 
@@ -45,7 +48,9 @@ const projects = [
       I was primarily responsible for implementing the frontend API integration using TypeScript (fetch API), and also contributed to the user interface and other aspects of the application.
       This project was a collaborative effort with a team of 6 students from the Eberhard Karls Universität Tübingen, Germany.
       Team members: [@Felix Mycka](https://github.com/sh1negg), [@Pascal Kuppler](https://github.com/pascal260303), [@Samuel Hempelmann](https://github.com/SamuABC), [@Simon Rappenecker](https://github.com/DerSimi), [@Simon Rappold](https://github.com/s-rappold).`,
-*/
+
+      livePreview: '',
+      */
 
 const skills = [
   // skills can be added or removed
