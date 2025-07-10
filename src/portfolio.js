@@ -38,7 +38,7 @@ const projects = [
       </>
     ),
     stack: ['Python', 'TypeScript', 'Django', 'Rest API', 'PostgreSQL'],
-    sourceCode: 'https://github.com/brendel-roup/mission_db',
+    sourceCode: 'https://github.com/brendel-group/mission_db',
   },
 ]
 
