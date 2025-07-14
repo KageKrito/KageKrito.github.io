@@ -55,16 +55,15 @@ const projects = [
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  'Java',
-  'Python',
-  'C++',
-  'Scala',
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'TypeScript',
-  'Git',
-  'Jest',
+  {name: 'Java', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg'},
+  {name: 'Python', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg'},
+  {name: 'C++', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg'},
+  {name: 'Scala', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg'},
+  {name: 'JavaScript', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg'},
+  {name: 'TypeScript', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg'},
+  {name: 'HTML', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg'},
+  {name: 'CSS', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg'},
+  {name: 'Git', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg'},
 ]
 
 const contact = {
