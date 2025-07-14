@@ -150,3 +150,49 @@ main {
     margin-top: 4em;
   }
 }
+
+.main-layout {
+  display: flex;
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+.main-content {
+  flex: 3;
+  min-width: 300px;
+}
+
+.sidebar {
+  flex: 1;
+  min-width: 250px;
+  position: sticky;
+  top: 2rem;
+  align-self: flex-start;
+}
+
+.project-nav h3 {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+  padding-left: 2rem; /* Move text "Projects" to the right */
+}
+
+.project-nav ul {
+  list-style: none;
+  padding-left: 2rem; /* Move whole list to the right */
+}
+
+.project-nav li {
+  margin: 0.5rem 0;
+}
+
+.project-nav a {
+  text-decoration: none;
+  color: var(--clr-primary); /* use your theme color */
+}
+
+.project-nav a:hover {
+  text-decoration: underline;
+}

@@ -12,7 +12,13 @@ const Projects = () => {
 
       <div className='projects__grid'>
         {projects.map((project) => (
-          <ProjectContainer key={uniqid()} project={project} />
+          <div 
+            key={uniqid()}
+            id={project.name.toLowerCase().replace(/\s+/g, '-')}
+            className='projects-wrapper'
+          >
+            <ProjectContainer project={project} />
+          </div>
         ))}
       </div>
     </section>

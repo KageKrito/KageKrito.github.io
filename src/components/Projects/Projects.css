@@ -5,3 +5,8 @@
   grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
   grid-gap: 2em;
 }
+
+.project-wrapper {
+  scroll-margin-top: 80px; /* offset for sticky headers, etc. */
+  margin-bottom: 2rem;
+}
