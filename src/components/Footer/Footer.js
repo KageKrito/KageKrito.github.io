@@ -2,12 +2,9 @@ import './Footer.css'
 
 const Footer = () => (
   <footer className='footer'>
-    <a
-      href='https://github.com/rjshkhr/cleanfolio'
-      className='link footer__link'
-    >
-      Created using a template by Raj Shekhar
-    </a>
+    <span className='footer__link'>
+      © {new Date().getFullYear()} Oliver Heckel
+    </span>
   </footer>
 )
 
