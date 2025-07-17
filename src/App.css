@@ -3,10 +3,11 @@
   line-height: 1.5;
   color: var(--clr-fg);
   background-color: var(--clr-bg);
+  transition: background-color 0.5s ease, color 0.5s ease;
 }
 
 .light {
-  --clr-bg: #fcfcfc;
+  --clr-bg: #f8f8f8;
   --clr-bg-alt: #fff;
   --clr-fg: #555;
   --clr-fg-alt: #444;
@@ -15,8 +16,8 @@
 }
 
 .dark {
-  --clr-bg: #23283e;
-  --clr-bg-alt: #2a2f4c;
+  --clr-bg: #2b2b2b;
+  --clr-bg-alt: #222;
   --clr-fg: #bdbddd;
   --clr-fg-alt: #cdcdff;
   --clr-primary: #90a0d9;
