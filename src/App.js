@@ -15,8 +15,10 @@ const App = () => {
 
   return (
     <div id='top' className={`${themeName} app`}>
-      <Header />
-
+      <div className='header-container'>
+        <Header className="header"/>
+      </div>
+      
     <main>
       <div className='centered-section'>
         <About />
