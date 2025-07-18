@@ -68,7 +68,7 @@ const projects = [
         <a href="https://github.com/s-rappold" target="_blank" rel="noopener noreferrer">Simon Rappold</a>.
       </>
     ),
-    stack: ['Python', 'TypeScript', 'Django', 'Rest API', 'PostgreSQL'],
+    stack: ['Python', 'TypeScript', 'Django', 'PostgreSQL'],
     sourceCode: 'https://github.com/brendel-group/mission_db',
   },
   /* {
@@ -88,7 +88,7 @@ const projects = [
         <a href="https://github.com/s-rappold" target="_blank" rel="noopener noreferrer">Simon Rappold</a>.
       </>
     ),
-    stack: ['Python', 'TypeScript', 'Django', 'Rest API', 'PostgreSQL'],
+    stack: ['Python', 'TypeScript', 'Django', 'PostgreSQL'],
     sourceCode: 'https://github.com/brendel-group/mission_db',
   },
   {
@@ -108,7 +108,7 @@ const projects = [
         <a href="https://github.com/s-rappold" target="_blank" rel="noopener noreferrer">Simon Rappold</a>.
       </>
     ),
-    stack: ['Python', 'TypeScript', 'Django', 'Rest API', 'PostgreSQL'],
+    stack: ['Python', 'TypeScript', 'Django', 'PostgreSQL'],
     sourceCode: 'https://github.com/brendel-group/mission_db',
   },
   {
@@ -128,7 +128,7 @@ const projects = [
         <a href="https://github.com/s-rappold" target="_blank" rel="noopener noreferrer">Simon Rappold</a>.
       </>
     ),
-    stack: ['Python', 'TypeScript', 'Django', 'Rest API', 'PostgreSQL'],
+    stack: ['Python', 'TypeScript', 'Django', 'PostgreSQL'],
     sourceCode: 'https://github.com/brendel-group/mission_db',
   }, */
 ]
@@ -163,6 +163,7 @@ const skills = [
     items: [
       {name: 'React', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'},
       {name: 'Django', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg'},
+      {name: 'Bukkit', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bukkit/bukkit-original.svg'},
     ]
   },
   {
