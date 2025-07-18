@@ -138,6 +138,7 @@ const skills = [
   // if there are no skills, Skills section won't show up
   {
     category: 'Programming Languages',
+    short: 'PL',
     items: [
       {name: 'Java', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg'},
       {name: 'Python', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg'},
@@ -149,6 +150,7 @@ const skills = [
   },
   {
     category: 'Web Technologies',
+    short: 'Web',
     items: [
       {name: 'HTML', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg'},
       {name: 'CSS', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg'},
@@ -157,6 +159,7 @@ const skills = [
   },
   {
     category: 'Tools & Frameworks',
+    short: 'T&F',
     items: [
       {name: 'React', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'},
       {name: 'Django', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg'},
@@ -164,6 +167,7 @@ const skills = [
   },
   {
     category: 'Libraries',
+    short: 'Libs',
     items: [
       {name: 'NumPy', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg'},
       {name: 'PyTorch', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg'},
