@@ -19,7 +19,7 @@
   font-weight: 500;
   margin-bottom: 1rem;
   color: var(--clr-fg-alt);
-  text-align: left; /* Ensure left alignment */
+  text-align: center; /* Ensure left alignment */
 }
 
 .skills__list-item {
@@ -30,11 +30,13 @@
 }
 
 .skills-list {
-  justify-content: flex-start; /* Align items left */
+  justify-content: center; /* Align items left */
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .skills__list.flat-list {
-  justify-content: left; /* Align items left */
+  justify-content: center; /* Align items left */
 }
 
 .skills-filter {
@@ -53,7 +55,7 @@
   display: flex;
   align-items: left;
   width: 100px;
-  padding: 1rem 0.5rem;
+  padding: 0.5rem 0;
 }
 
 .skills-filter-header label {
@@ -63,7 +65,7 @@
   cursor: pointer;
   font-size: 0.8rem;
   white-space: nowrap;
-  gap: 0.5rem;
+  gap: 0.3rem;
 }
 
 .skills-filter-header text {
@@ -86,6 +88,7 @@
   transition: font-weight 0.2s ease;
   position: absolute;
   justify-content: left;
+  top: 13.1rem;
 }
 .category-button {
   flex: 1;
