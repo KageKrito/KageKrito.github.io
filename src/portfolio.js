@@ -71,7 +71,7 @@ const projects = [
     stack: ['Python', 'TypeScript', 'Django', 'Rest API', 'PostgreSQL'],
     sourceCode: 'https://github.com/brendel-group/mission_db',
   },
-  {
+  /* {
     name: 'test1',
     description: (
       <>
@@ -130,7 +130,7 @@ const projects = [
     ),
     stack: ['Python', 'TypeScript', 'Django', 'Rest API', 'PostgreSQL'],
     sourceCode: 'https://github.com/brendel-group/mission_db',
-  },
+  }, */
 ]
 
 const skills = [

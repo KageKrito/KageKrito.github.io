@@ -15,18 +15,10 @@ const App = () => {
   const [{ themeName }] = useContext(ThemeContext)
   const activeSection = useActiveSection()
 
-  const backgrounds = {
-    about: '#e3e6ea',
-    projects: '#f8f8f8',
-    skills: '#dbe6e4',
-    contact: '#fff',
-  }
-
   return (
     <div
       id='top'
       className={`${themeName} app`}
-      style={{ background: backgrounds[activeSection] }}
     >
       <div className='header-container'>
         <Header className="header"/>
