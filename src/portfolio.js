@@ -163,7 +163,6 @@ const skills = [
     items: [
       {name: 'React', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'},
       {name: 'Django', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg'},
-      {name: 'Bukkit', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bukkit/bukkit-original.svg'},
     ]
   },
   {
