@@ -30,31 +30,38 @@ const Skills = () => {
   return (
     <section className='section skills' id='skills'>
       <h2 className='section__title'>Skills</h2>
-      <ul className='skills__list' ref={wrapperRef}>
-        {skills.map((skill) => (
-          <li key={skill.name} className='skills__list-item logo-wrapper'>
-            <button
-              type='button'
-              className='skill-logo-btn'
-              onClick={() => handleClick(skill.name)}
-              aria-label={`Show skill name for ${skill.name}`}
-            >
-              <img
-                src={skill.logo}
-                alt={skill.name}
-                className='skill-logo'
-              />
-            </button>
-            <span
-              className={`tooltip ${
-                activeSkill === skill.name ? 'tooltip--active' : ''
-              }`}
-            >
-              {skill.name}
-            </span>
-          </li>
+      <div className='skills__list' ref={wrapperRef}>
+        {skills.map(cat => (
+          <div key={cat.category}>
+            <h4>{cat.category}</h4>
+            <div className="skills-list">
+              {cat.items.map(skill => (
+                <li key={skill.name} className='skills__list-item logo-wrapper'>
+                  <button
+                    type='button'
+                    className='skill-logo-btn'
+                    onClick={() => handleClick(skill.name)}
+                    aria-label={`Show skill name for ${skill.name}`}
+                  >
+                    <img
+                      src={skill.logo}
+                      alt={skill.name}
+                      className='skill-logo'
+                    />
+                  </button>
+                  <span
+                    className={`tooltip ${
+                      activeSkill === skill.name ? 'tooltip--active' : ''
+                    }`}
+                  >
+                    {skill.name}
+                  </span>
+                </li>
+              ))}
+            </div>
+          </div>
         ))}
-      </ul>
+      </div>
     </section>
   )
 }

@@ -26,7 +26,7 @@
 }
 
 main {
-  max-width: 1100px;
+  max-width: 1200px;
   width: 95%;
   margin: 0 auto;
   padding-top: 70px; /* match header height */
@@ -162,8 +162,8 @@ main {
 
 .main-layout {
   display: flex;
-  gap: 2rem;
-  max-width: 1200px;
+  gap: 4rem;
+  max-width: 1400px;
   margin: 0 auto;
   padding: 2rem 1rem;
   flex-wrap: wrap;
@@ -180,17 +180,18 @@ main {
   position: sticky;
   top: 2rem;
   align-self: flex-start;
+  justify-content: flex-start; /* Align items left */
 }
 
 .project-nav h3 {
   margin-top: 2rem;
   font-size: 1.2rem;
-  padding-left: 2rem; /* Move text "Projects" to the right */
+  padding-left: 0.3rem; /* Move text "Projects" to the right */
 }
 
 .project-nav ul {
   list-style: none;
-  padding-left: 2rem; /* Move whole list to the right */
+  padding-left: 0.3rem; /* Move projects list to the right */
 }
 
 .project-nav li {
