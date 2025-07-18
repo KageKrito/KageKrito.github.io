@@ -3,6 +3,8 @@
   bottom: 2em;
   right: 4em;
   background-color: transparent;
+  cursor: pointer;
+  z-index: 5;
 }
 
 @media (max-width: 900px) {

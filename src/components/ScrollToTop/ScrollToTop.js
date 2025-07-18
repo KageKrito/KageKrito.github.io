@@ -2,16 +2,18 @@ import React, { useEffect, useState } from 'react'
 import ArrowUpwardIcon from '@material-ui/icons/ArrowUpward'
 import './ScrollToTop.css'
 
-const ScrollToTop = () => {
+const ScrollToTop = ({ activeSection }) => {
   const [isVisible, setIsVisible] = useState(false)
 
   useEffect(() => {
-    const toggleVisibility = () =>
-      window.pageYOffset > 500 ? setIsVisible(true) : setIsVisible(false)
+    const toggleVisibility = () => {
+      setIsVisible(activeSection !== 'about') // Nur sichtbar, wenn nicht auf der About-Seite
+    }
 
     window.addEventListener('scroll', toggleVisibility)
+    toggleVisibility()
     return () => window.removeEventListener('scroll', toggleVisibility)
-  }, [])
+  }, [activeSection])
 
   return isVisible ? (
     <div className='scroll-top'>
