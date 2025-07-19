@@ -55,17 +55,26 @@ const projects = [
     name: 'mission_db',
     description: (
       <>
+        <h5>Description</h5>
+        <p>
         This is a team project developed during the course Teamprojekt (Winter Semester 2024/25) for the <a href="https://github.com/brendel-group" target="_blank" rel="noopener noreferrer">brendel-group</a>.<br />
-        mission_db is a web-based application to work with and organize Polybots missions.<br />
-        <br />
-        I was primarily responsible for implementing the frontend API integration using TypeScript (fetch API), and also contributed to the user interface and other aspects of the application.<br />
-        <br />
+        mission_db is a web-based application to work with and organize Polybots missions.
+        </p>
+        
+        <h5>My Contribution</h5>
+        <p>
+        I was primarily responsible for implementing the frontend API integration using TypeScript (fetch API), and also contributed to the user interface and other aspects of the application.
+        </p>
+
+        <h5>Collaborators</h5>
+        <p>
         This project was a collaborative effort with a team of 6 students from the <a href="https://uni-tuebingen.de/" target="_blank" rel="noopener noreferrer">Eberhard Karls Universität Tübingen</a>, Germany.<br />
         Collaborated with:{' '}<a href="https://github.com/sh1negg" target="_blank" rel="noopener noreferrer">Felix Mycka</a>,{' '}
         <a href="https://github.com/pascal260303" target="_blank" rel="noopener noreferrer">Pascal Kuppler</a>,{' '}
         <a href="https://github.com/SamuABC" target="_blank" rel="noopener noreferrer">Samuel Hempelmann</a>,{' '}
         <a href="https://github.com/DerSimi" target="_blank" rel="noopener noreferrer">Simon Rappenecker</a> and{' '}
         <a href="https://github.com/s-rappold" target="_blank" rel="noopener noreferrer">Simon Rappold</a>.
+        </p>
       </>
     ),
     stack: ['Python', 'TypeScript', 'Django', 'PostgreSQL', 'React', 'CSS'],
