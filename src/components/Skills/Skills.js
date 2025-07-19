@@ -123,7 +123,9 @@ const Skills = () => {
           className={`skills__list ${!showCategoryNames && selectedCategory === 'All' ? 'flat-list' : ''}`}
           ref={wrapperRef}
         >
+          <div className="skills-list-container">
           {renderSkills()}
+          </div>
         </div>
       </div>
     </section>

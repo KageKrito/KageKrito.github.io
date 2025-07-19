@@ -9,17 +9,17 @@
 }
 
 .skills__list > div {
-  margin-bottom: 2.5rem; /* more space between categories */
+  margin-bottom: 2.5rem;
   width: 100%;
   box-sizing: border-box; /* Prevent overflow */
 }
 
 .skills__list h4 {
-  font-size: 1.1rem; /* smaller category name */
+  font-size: 1.1rem;
   font-weight: 500;
   margin-bottom: 1rem;
   color: var(--clr-fg-alt);
-  text-align: center; /* Ensure left alignment */
+  text-align: center;
 }
 
 .skills__list-item {
@@ -29,14 +29,32 @@
   gap: 0.5rem;
 }
 
+.skills-group {
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
 .skills-list {
-  justify-content: center; /* Align items left */
+  justify-content: left space-between;
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
+}
+
+.skills-list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
 }
 
 .skills__list.flat-list {
-  justify-content: center; /* Align items left */
+  justify-content: left space-between;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
 }
 
 .skills-filter {
@@ -88,7 +106,6 @@
   transition: font-weight 0.2s ease;
   position: absolute;
   justify-content: left;
-  top: 13.1rem;
 }
 .category-button {
   flex: 1;
