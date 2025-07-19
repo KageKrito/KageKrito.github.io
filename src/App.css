@@ -153,6 +153,9 @@ main {
   .section {
     margin-top: 4em;
   }
+  .main-layout {
+    justify-content: center;
+  }
 }
 
 .centered-section {
