@@ -14,6 +14,7 @@ import useActiveSection from './hooks/useActiveSection'
 const App = () => {
   const [{ themeName }] = useContext(ThemeContext)
   const activeSection = useActiveSection()
+  document.documentElement.className = themeName;
 
   return (
     <div
