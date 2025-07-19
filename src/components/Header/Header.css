@@ -15,7 +15,7 @@
   left: 0;
   right: 12px;
   height: 6em;
-  z-index: 2;
+  z-index: 5;
 
   background: var(--clr-header);
   border-bottom: var(--clr-header-border);
@@ -28,7 +28,7 @@
 .light {
   --clr-header: linear-gradient(90deg, #e3e6ea 0%, #cfd3d6 100%);
   --clr-header-border: 1px solid #bbb;
-  --clr-header-shadow: 0 2px 16px rgba(60,60,60,0.10), 0 1.5px 0 rgba(255,255,255,0.3) inset;
+  --clr-header-shadow: 0 4px 16px rgba(60, 60, 60, 0.2);
 }
 
 .dark {
