@@ -68,7 +68,7 @@ const projects = [
         <a href="https://github.com/s-rappold" target="_blank" rel="noopener noreferrer">Simon Rappold</a>.
       </>
     ),
-    stack: ['Python', 'TypeScript', 'Django', 'PostgreSQL'],
+    stack: ['Python', 'TypeScript', 'Django', 'PostgreSQL', 'React', 'CSS'],
     sourceCode: 'https://github.com/brendel-group/mission_db',
   },
   /* {
@@ -137,32 +137,32 @@ const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
   {
-    category: 'Programming Languages',
-    short: 'PL',
+    category: 'Backend',
+    short: 'BE',
     items: [
       {name: 'Java', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg'},
       {name: 'Python', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg'},
       {name: 'C++', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg'},
       {name: 'Scala', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scala/scala-original.svg'},
+    ]
+  },
+  {
+    category: 'Frontend',
+    short: 'FE',
+    items: [
+      {name: 'HTML', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg'},
+      {name: 'CSS', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg'},
       {name: 'JavaScript', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg'},
       {name: 'TypeScript', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg'},
     ]
   },
   {
-    category: 'Web Technologies',
-    short: 'Web',
+    category: 'Tools',
+    short: 'Tools',
     items: [
-      {name: 'HTML', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg'},
-      {name: 'CSS', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg'},
+      {name: 'VS Code', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg'},
       {name: 'Git', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg'},
-    ]
-  },
-  {
-    category: 'Tools & Frameworks',
-    short: 'T&F',
-    items: [
-      {name: 'React', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'},
-      {name: 'Django', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg'},
+      {name: 'Github', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg'},
     ]
   },
   {
@@ -172,6 +172,7 @@ const skills = [
       {name: 'NumPy', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg'},
       {name: 'PyTorch', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg'},
       {name: 'Jest', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg'},
+      {name: 'React', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'},
     ]
   }
 ]
