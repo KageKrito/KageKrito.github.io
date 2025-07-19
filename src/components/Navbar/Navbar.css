@@ -27,9 +27,8 @@
     position: fixed;
     top: 4.8em;
     left: 0;
-    right: 0;
+    right: -12px;
     height: 12em;
-    width: 100%;
     z-index: 2;
 
     background: var(--clr-navbar);
