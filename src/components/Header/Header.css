@@ -1,24 +1,28 @@
 .header {
   width: 95%;
   max-width: 1600px;
+  height: 100%;
   margin: 0 auto;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100%;
 }
 
 .header-container {
   position: fixed;
   top: 0;
   left: 0;
+  right: 12px;
   height: 6em;
-  width: 99.2%;
-  margin: 0 auto;
   z-index: 2;
+
   background: var(--clr-header);
   border-bottom: var(--clr-header-border);
-  box-shadow: var(--clr-header-shadow); 
+  box-shadow: var(--clr-header-shadow);
+  
+  display: flex;
+  justify-content: center;
 }
 
 .light {
@@ -35,6 +39,10 @@
 
 @media (max-width: 600px) {
   .header {
-    height: 6em;
+    height: 5em;
+  }
+  .header-container {
+    height: 5em;
+    right: 0;
   }
 }
