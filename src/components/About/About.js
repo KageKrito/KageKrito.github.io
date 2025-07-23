@@ -3,8 +3,8 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import { about } from '../../portfolio'
 import './About.css'
 
-const About = () => {
-  const { name, role, description, resume, social } = about
+const About = ({ showResume, setShowResume }) => {
+  const { name, role, description, social } = about
 
   return (
     <div className='about center'>
@@ -18,13 +18,9 @@ const About = () => {
       <div className='about__desc'>{description && description}</div>
 
       <div className='about__contact center'>
-        {resume && (
-          <a href={resume}>
-            <span type='button' className='btn btn--outline'>
-              Resume
-            </span>
-          </a>
-        )}
+        <button type='button' onClick={() => setShowResume(prev => !prev)} className='btn btn--outline'>
+          {showResume ? 'Close Resume' : 'Resume'}
+        </button>
 
         {social && (
           <>

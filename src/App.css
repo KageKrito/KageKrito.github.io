@@ -158,7 +158,14 @@ main {
   }
 }
 
-.centered-section {
+.centered-section .about{
+  display: flex;
+  justify-content: center;
+  padding: 1rem 1rem;
+  text-align: left;
+}
+
+.centered-section .resume{
   display: flex;
   justify-content: center;
   padding: 1rem 1rem;

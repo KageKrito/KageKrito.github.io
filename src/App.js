@@ -1,7 +1,8 @@
-import { useContext } from 'react'
+import { useContext, useState } from 'react'
 import { ThemeContext } from './contexts/theme'
 import Header from './components/Header/Header'
 import About from './components/About/About'
+import Resume from './components/Resume/Resume'
 import Projects from './components/Projects/Projects'
 import Skills from './components/Skills/Skills'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
@@ -14,6 +15,7 @@ import useActiveSection from './hooks/useActiveSection'
 const App = () => {
   const [{ themeName }] = useContext(ThemeContext)
   const activeSection = useActiveSection()
+  const [showResume, setShowResume] = useState(false)
   document.documentElement.className = themeName;
 
   return (
@@ -27,7 +29,8 @@ const App = () => {
       
     <main>
       <div className='centered-section'>
-        <div id="about"><About /></div>
+        <div id="about"><About showResume={showResume} setShowResume={setShowResume} /></div>
+        <div id="resume">{showResume && <Resume onClose={() => setShowResume(false)} />}</div>
       </div>
       
       <div className='main-layout'>
