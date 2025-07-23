@@ -43,34 +43,22 @@ const about = {
   ),
   resume: (
     <>
-      <h4>Education</h4>
+      <h4>School</h4>
       <p>
-        I&apos;m a sixth-semester Computer Science student at the{' '}
-      <a
-        href="https://uni-tuebingen.de/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Eberhard Karls University of Tübingen
-      </a>
-      , Germany, pursuing a Bachelor of Science degree.
+        ...<br />
+        ....
       </p>
 
-      <h4>Interests</h4>
+      <h4>University</h4>
       <p>
-        I am particularly interested in machine learning and artificial intelligence, especially their applications in solving real-world problems.<br />
-        I enjoy exploring new models and techniques and understanding how intelligent systems can be designed and improved.
+        ...<br />
+        ....
       </p>
 
-      <h4>Motivation</h4>
+      <h4>Work</h4>
       <p>
-        What drives me in the field of computer science is the opportunity to build solutions for real-world problems.<br />
-        I&apos;m motivated by the constant evolution of technology and the chance to contribute to innovative projects that can make a difference.
-      </p>
-
-      <h4>Future Plans</h4>
-      <p>
-        After completing my Bachelor&apos;s degree, I plan to pursue a Master of Science in Computer Science to further develop my expertise.
+        ...<br />
+        ....
       </p>
     </>
   ),
