@@ -202,6 +202,7 @@ const skills = [
       {name: 'PyTorch', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg'},
       {name: 'Jest', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg'},
       {name: 'React', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'},
+      {name: 'p5', logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/p5js/p5js-original.svg'},
     ]
   }
 ]

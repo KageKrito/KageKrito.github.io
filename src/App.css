@@ -172,25 +172,16 @@ main {
   text-align: left;
 }
 
-.main-layout {
-  display: flex;
-  gap: 4rem;
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 2rem 1rem;
-  flex-wrap: wrap;
-}
-
-.main-content {
+.projects.layout {
   flex: 4;
   min-width: 400px;
 }
 
-.sidebar {
+.skills-layout {
   flex: 1;
-  min-width: 300px;
-  position: sticky;
-  top: 2rem;
+  min-width: 400px;
+  position: relative;
+  top: auto;
   align-self: flex-start;
   justify-content: flex-start; /* Align items left */
 }

@@ -9,7 +9,6 @@ import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import './App.css'
-import { projects } from './portfolio'
 import useActiveSection from './hooks/useActiveSection'
 
 const App = () => {
@@ -33,26 +32,12 @@ const App = () => {
         <div id="resume">{showResume && <Resume onClose={() => setShowResume(false)} />}</div>
       </div>
       
-      <div className='main-layout'>
-        <div className='main-content'>
-          <div id="projects"><Projects /></div>
-        </div>
+      <div className='skills-layout'>
+        <div id="skills"><Skills /></div>
+      </div>
 
-        <aside className='sidebar'>
-          <div id="skills"><Skills /></div>
-          <div className='project-nav'>
-            <h3>Projects</h3>
-            <ul>
-              {projects.map((project) => (
-                <li key={project.name}>
-                  <a href={`#${project.name.toLowerCase().replace(/\s+/g, '-')}`}>
-                    {project.name}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </aside>
+      <div className='projects-layout'>
+        <div id="projects"><Projects /></div>
       </div>
 
       <div className='centered-section'>

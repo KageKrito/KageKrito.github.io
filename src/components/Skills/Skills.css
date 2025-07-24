@@ -14,6 +14,10 @@
   box-sizing: border-box; /* Prevent overflow */
 }
 
+.skills__list.flat-list > div {
+  justify-content: left;
+}
+
 .skills__list h4 {
   font-size: 1.1rem;
   font-weight: 500;
@@ -32,19 +36,20 @@
 .skills-group {
   justify-content: center;
   align-items: center;
-  width: 80%;
+  min-width: 100%;
 }
 
 .skills-list {
   justify-content: left space-between;
   display: flex;
   flex-wrap: wrap;
+  gap: 17px;
   width: 100%;
 }
 
 .skills-list-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
   margin-top: 2rem;
@@ -57,9 +62,18 @@
   width: 80%;
 }
 
+.skills__list.flat-list .skills-list-container {
+  justify-content: left space-between;
+  gap: 17px;
+}
+
 .skills-filter {
+  max-width: 600px;
+  min-width: 400px;
+
   overflow-x: auto;
   padding: 0.5em 0;
+  justify-self: center;
 }
 
 .category-bar {
@@ -73,7 +87,7 @@
   display: flex;
   align-items: left;
   width: 100px;
-  padding: 0.5rem 0;
+  justify-self: center;
 }
 
 .skills-filter-header label {
@@ -154,10 +168,6 @@
   margin: 0;
   cursor: pointer;
   display: inline-block;
-}
-
-.skill-logo[alt="Django"] {
-  filter: brightness(1.5);
 }
 
 .logo-wrapper:hover .skill-logo {
