@@ -99,6 +99,10 @@ a {
   text-decoration: none;
 }
 
+p {
+  color: var(--clr-fg-skillbar);
+}
+
 button {
   cursor: pointer;
 }
