@@ -38,6 +38,10 @@ const Skills = () => {
     }
   }, [selectedCategory])
 
+  const renderTooltip = (skill) => (
+    `${skill.name} • ${skill.progress ? skill.progress : ''}%`
+  )
+
   const renderSkillItem = (skill) => (
     <li key={skill.name} className="skills__list-item logo-wrapper">
       <button
@@ -49,7 +53,7 @@ const Skills = () => {
         <img src={skill.logo} alt={skill.name} className="skill-logo" />
       </button>
       <span className={`tooltip ${activeSkill === skill.name ? 'tooltip--active' : ''}`}>
-        {skill.name}
+        {renderTooltip(skill)}
       </span>
     </li>
   )
