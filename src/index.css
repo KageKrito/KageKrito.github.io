@@ -110,6 +110,7 @@ button {
 @media (max-width: 600px) {
   html, body {
     max-width: 600px;
+    overflow-x: hidden;
   }
   h1 {
     font-size: 2rem;
