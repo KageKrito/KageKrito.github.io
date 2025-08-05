@@ -97,7 +97,7 @@ const projects = [
         </p>
       </>
     ),
-    stack: ['Python', 'TypeScript', 'Django', 'PostgreSQL', 'React', 'CSS'],
+    stack: ['Python', 'TypeScript', 'Django', 'PostgreSQL', 'React', 'CSS', 'Jest'],
     sourceCode: 'https://github.com/brendel-group/mission_db',
   },
   /* {
