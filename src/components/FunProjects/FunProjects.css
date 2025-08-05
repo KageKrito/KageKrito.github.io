@@ -10,3 +10,10 @@
   scroll-margin-top: 80px; /* offset for sticky headers, etc. */
   margin-bottom: 2rem;
 }
+
+@media (max-width: 600px) {
+  .funprojects__grid {
+    align-items: flex-start;
+    margin-top: 2em;
+  }
+}

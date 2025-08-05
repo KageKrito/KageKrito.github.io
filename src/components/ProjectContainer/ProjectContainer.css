@@ -34,3 +34,14 @@
 .project .link--icon {
   margin-left: 0.5em;
 }
+
+@media (max-width: 600px) {
+  .project {
+    align-items: flex-start;
+    margin-top: 2em;
+    margin-right: 12px;
+    left: 0;
+    padding: 1em;
+    max-width: 378px;
+  }
+}

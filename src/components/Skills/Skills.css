@@ -256,7 +256,7 @@
 
 @media (max-width: 600px) {
   .skills__list.flat-list {
-    width: 380px;
+    width: 378px;
   }
 
   .skills__list.flat-list .skills-list-container{
@@ -271,5 +271,14 @@
     justify-content: left space-between;
     flex-wrap: wrap;
     gap: 22px;
+  }
+  .skills-filter {
+    min-width: 378px;
+    max-width: 378px;
+    padding: 0;
+  }
+  .skills-filter-header {
+    width: 100%;
+    padding: 0;
   }
 }

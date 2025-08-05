@@ -158,6 +158,22 @@ main {
   .main-layout {
     justify-content: center;
   }
+  .section__title {
+    justify-content: center;
+  }
+  .skills-layout {
+    left: 0;
+    min-width: 378px;
+    max-width: 378px;
+  }
+  .projects.layout {
+    min-width: 0;
+    max-width: 378px;
+  }
+  .centered-section {
+    min-width: 378px;
+    max-width: 378px;
+  }
 }
 
 .centered-section .about{
