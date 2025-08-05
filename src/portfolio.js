@@ -43,16 +43,32 @@ const about = {
   ),
   resume: (
     <>
+      <h4>Personal Data</h4>
+      <p>
+        Born 2002<br />
+        Kirchheim u. Teck, Germany
+      </p>
+
       <h4>School</h4>
       <p>
-        ...<br />
-        ....
+        Abitur 2021<br />
+        Hölderlin Gymnasium in Nürtingen, Germany
+      </p>
+
+      <h4>Temporary Jobs</h4>
+      <p>
+        Warehouse Picker 2021<br />
+        Lidl Zentrallager STU in Kirchheim u. Teck, Germany<br />
+        <br />
+        Temporary Helper 2022<br />
+        Gustav Magenwirth GmbH & Co. KG in Hülben, Germany
       </p>
 
       <h4>University</h4>
       <p>
-        ...<br />
-        ....
+        Student of Computer Science since 2022<br />
+        Eberhard Karls University of Tübingen, Germany<br />
+        Bachelor of Science, expected graduation in 2026
       </p>
 
       <h4>Work</h4>
@@ -162,6 +178,54 @@ const projects = [
   }, */
 ]
 
+const funProjects = [
+  // projects can be added and removed
+  // if there are no projects, Projects section won't show up
+  {
+    name: 'Minecraft Server Plugins',
+    description: (
+      <>
+        <h5>Description</h5>
+        <p>
+        These are multiple plugins I developed for Bukkit/Spigot (Minecraft 1.21.4).<br />
+        They are designed to enhance the gameplay experience by adding new features and functionalities to Vanilla Minecraft.
+        </p>
+        
+        <h5>List of plugins</h5>
+        <p>
+          <strong><a href="https://github.com/KageKrito/Minecraft-Server-Plugins" target="_blank" rel="noopener noreferrer">Player Backpack</a></strong><br />
+          A plugin that allows players to store items in a shared backpack.<br />
+          Players can access the backpack by using the command <code>/bp</code>.<br />
+          All players on the server can access the backpack, making it a great way to share items and resources.<br />
+          <br />
+        </p>
+        <p>
+          <strong><a href="https://github.com/KageKrito/Minecraft-Server-Plugins" target="_blank" rel="noopener noreferrer">Shulker Viewer</a></strong><br />
+          A plugin that allows players to view a preview of the shulker inventory.<br />
+          Players can access this preview by right-clicking on a shulker box in the inventory.<br />
+          Items in shulker box cannot be changed inside the preview, making it a fast way to check the contents of a shulker box without having to place it down.<br />
+          <br />
+        </p>
+        <p>
+          <strong><a href="https://github.com/KageKrito/Minecraft-Server-Plugins" target="_blank" rel="noopener noreferrer">Ender Chest Viewer</a></strong><br />
+          A plugin that allows players to view a preview of their ender chest inventory.<br />
+          Players can access this preview by right-clicking on an ender chest in the inventory.<br />
+          Items in the ender chest cannot be changed inside the preview, making it a fast way to check the contents of the ender chest without having to place it down.<br />
+          <br />
+        </p>
+        <p>
+          <strong><a href="https://github.com/KageKrito/Minecraft-Server-Plugins" target="_blank" rel="noopener noreferrer">Comming Soon</a></strong><br />
+          Ender Chest Command - Players can access their enderchest by using the command <code>/ec</code>.<br />
+          Player Highlighter - Players can highlight a specified player by using the command <code>/highlight &lt;player name&gt;</code>.<br />
+          Chest Remote Viewer - Players can view the inventory of a specified chest by using <code>/view &lt;chest id&gt;</code>.
+        </p>
+      </>
+    ),
+    stack: ['Java', 'Bukkit', 'Spigot'],
+    sourceCode: 'https://github.com/KageKrito/Minecraft-Server-Plugins',
+  },
+]
+
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
@@ -260,4 +324,4 @@ const contact = {
   email: 'oliver.heckel2002@gmail.com',
 }
 
-export { header, about, projects, skills, contact }
+export { header, about, projects, funProjects, skills, contact }
