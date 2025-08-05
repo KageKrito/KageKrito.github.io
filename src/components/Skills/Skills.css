@@ -201,10 +201,7 @@
     transparent 100%
   );
 
-  /* Umriss-Effekt */
-  filter: drop-shadow(0px 0px 1px var(--clr-logo-outline))
-          brightness(1) saturate(0);
-  mix-blend-mode: normal;
+  filter: invert(var(--clr-logo-outline));
 
   transition: transform 0.2s ease-in-out;
 }
