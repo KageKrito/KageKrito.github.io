@@ -88,6 +88,7 @@
   align-items: left;
   width: 100px;
   justify-self: center;
+  padding: 0 400px 0 0;
 }
 
 .skills-filter-header label {
@@ -254,4 +255,24 @@
 .tooltip--active {
   visibility: visible;
   opacity: 1;
+}
+
+@media (max-width: 600px) {
+  .skills__list.flat-list {
+    width: 380px;
+  }
+
+  .skills__list.flat-list .skills-list-container{
+    width: 100%;
+    display: flex;
+    justify-content: left space-between;
+    flex-wrap: wrap;
+    gap: 22px;
+  }
+
+  .skills-list {
+    justify-content: left space-between;
+    flex-wrap: wrap;
+    gap: 22px;
+  }
 }
