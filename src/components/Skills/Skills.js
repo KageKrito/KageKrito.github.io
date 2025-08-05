@@ -38,19 +38,44 @@ const Skills = () => {
     }
   }, [selectedCategory])
 
+  const renderTooltip = (skill) => (
+    `${skill.name} • ${skill.progress ? skill.progress : ''}%`
+  )
+
   const renderSkillItem = (skill) => (
-    <li key={skill.name} className="skills__list-item logo-wrapper">
-      <button
-        type="button"
-        className="skill-logo-btn"
-        onClick={() => handleClick(skill.name)}
-        aria-label={`Show skill name for ${skill.name}`}
-      >
-        <img src={skill.logo} alt={skill.name} className="skill-logo" />
-      </button>
-      <span className={`tooltip ${activeSkill === skill.name ? 'tooltip--active' : ''}`}>
-        {skill.name}
-      </span>
+    <li key={skill.name} className="skills__list-item">
+      <div className = "logo-wrapper">
+        <button
+          type="button"
+          className="skill-logo-btn"
+          onClick={() => handleClick(skill.name)}
+          aria-label={`Show skill name for ${skill.name}`}
+          style={{
+            position: 'relative',
+            width: '60px',
+            height: '60px',
+            '--progress': skill.progress,
+          }}
+        >
+          {/* Farbiges Logo (nur unterer Teil sichtbar) */}
+          <img
+            src={skill.logo}
+            alt={skill.name}
+            className="skill-logo"
+          />
+
+          {/* Outline-Logo (nur oberer Teil sichtbar) */}
+          <img
+            src={skill.logo_outline || skill.logo}
+            alt={`${skill.name} outline`}
+            className="skill-logo-outline"
+          />
+        </button>
+
+        <span className={`tooltip ${activeSkill === skill.name ? 'tooltip--active' : ''}`}>
+          {renderTooltip(skill)}
+        </span>
+      </div>
     </li>
   )
 

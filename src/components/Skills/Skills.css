@@ -88,6 +88,7 @@
   align-items: left;
   width: 100px;
   justify-self: center;
+  padding: 0 400px 0 0;
 }
 
 .skills-filter-header label {
@@ -150,15 +151,59 @@
 
 .logo-wrapper {
   position: relative;
-  display: inline-block;
 }
 
+/* Farbiges Hauptlogo – nur UNTEN sichtbar (nach progress) */
 .skill-logo {
-  width: 60px;
-  height: 60px;
+  width: 100%;
+  height: 100%;
   object-fit: contain;
-  cursor: pointer;
-  transition: transform 0.2s ease;
+
+  mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    transparent calc(100% - var(--progress) * 1%),
+    black calc(100% - var(--progress) * 1%),
+    black 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    transparent calc(100% - var(--progress) * 1%),
+    black calc(100% - var(--progress) * 1%),
+    black 100%
+  );
+  transition: transform 0.2s ease-in-out;
+}
+
+.skill-logo-outline {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  color: transparent;
+
+  mask-image: linear-gradient(
+    to bottom,
+    black 0%,
+    black calc(100% - var(--progress) * 1%),
+    transparent calc(100% - var(--progress) * 1%),
+    transparent 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    black 0%,
+    black calc(100% - var(--progress) * 1%),
+    transparent calc(100% - var(--progress) * 1%),
+    transparent 100%
+  );
+
+  filter: invert(var(--clr-logo-outline));
+
+  transition: transform 0.2s ease-in-out;
 }
 
 .skill-logo-btn {
@@ -171,6 +216,10 @@
 }
 
 .logo-wrapper:hover .skill-logo {
+  transform: translateY(-5px);
+}
+
+.logo-wrapper:hover .skill-logo-outline {
   transform: translateY(-5px);
 }
 
@@ -203,4 +252,24 @@
 .tooltip--active {
   visibility: visible;
   opacity: 1;
+}
+
+@media (max-width: 600px) {
+  .skills__list.flat-list {
+    width: 380px;
+  }
+
+  .skills__list.flat-list .skills-list-container{
+    width: 100%;
+    display: flex;
+    justify-content: left space-between;
+    flex-wrap: wrap;
+    gap: 22px;
+  }
+
+  .skills-list {
+    justify-content: left space-between;
+    flex-wrap: wrap;
+    gap: 22px;
+  }
 }
