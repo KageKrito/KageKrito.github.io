@@ -2,7 +2,7 @@ import { useContext, useState } from 'react'
 import MenuIcon from '@material-ui/icons/Menu'
 import CloseIcon from '@material-ui/icons/Close'
 import { ThemeContext } from '../../contexts/theme'
-import { about, projects, skills, contact } from '../../portfolio'
+import { about, skills, projects, funProjects, contact } from '../../portfolio'
 import './Navbar.css'
 
 const Navbar = () => {
@@ -26,6 +26,18 @@ const Navbar = () => {
           </li>
         ) : null}
 
+        {skills.length ? (
+          <li className='nav__list-item'>
+            <a
+              href='#skills'
+              onClick={toggleNavList}
+              className='link link--nav'
+            >
+              Skills
+            </a>
+          </li>
+        ) : null}
+
         {projects.length ? (
           <li className='nav__list-item'>
             <a
@@ -38,14 +50,14 @@ const Navbar = () => {
           </li>
         ) : null}
 
-        {skills.length ? (
+        {funProjects.length ? (
           <li className='nav__list-item'>
             <a
-              href='#skills'
+              href='#funprojects'
               onClick={toggleNavList}
               className='link link--nav'
             >
-              Skills
+              Fun Projects
             </a>
           </li>
         ) : null}

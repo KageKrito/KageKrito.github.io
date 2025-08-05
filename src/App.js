@@ -3,8 +3,9 @@ import { ThemeContext } from './contexts/theme'
 import Header from './components/Header/Header'
 import About from './components/About/About'
 import Resume from './components/Resume/Resume'
-import Projects from './components/Projects/Projects'
 import Skills from './components/Skills/Skills'
+import Projects from './components/Projects/Projects'
+import FunProjects from './components/FunProjects/FunProjects'
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
@@ -38,6 +39,10 @@ const App = () => {
 
       <div className='projects-layout'>
         <div id="projects"><Projects /></div>
+      </div>
+
+      <div className='fun-projects-layout'>
+        <div id="funprojects"><FunProjects /></div>
       </div>
 
       <div className='centered-section'>
