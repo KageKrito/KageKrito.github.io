@@ -1,6 +1,6 @@
 .about {
   flex-direction: column;
-  margin-top: 3em;
+  margin-top: 1em;
 }
 
 .about__name {
@@ -33,7 +33,7 @@
 
 .about__desc,
 .about__contact {
-  margin-top: 2.4em;
+  margin-top: 1.5em;
 }
 
 .about .link--icon {
@@ -57,4 +57,16 @@
     margin-left: 1em;
     margin-right: 1em;
   }
+}
+
+#skills {
+  scroll-margin-top: 120px;
+}
+
+#projects {
+  scroll-margin-top: 120px;
+}
+
+#funprojects {
+  scroll-margin-top: 120px;
 }
