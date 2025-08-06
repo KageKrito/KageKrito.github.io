@@ -12,11 +12,12 @@
 }
 
 .project {
-  background-color: var(--clr-bg);
   background: var(--clr-textbox);
   border-radius: 1em;
   box-shadow: var(--shadow);
   backdrop-filter: blur(10px);
+
+  transition: background-color 0.5s ease, color 0.5s ease;
 }
 
 @media (max-width: 600px) {

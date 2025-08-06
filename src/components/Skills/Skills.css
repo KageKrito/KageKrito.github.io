@@ -1,5 +1,4 @@
 .skills-section {
-  background-color: var(--clr-bg);
   max-width: 800px;
   margin: 0 auto;
 
@@ -7,6 +6,8 @@
   border-radius: 1em;
   box-shadow: var(--shadow);
   backdrop-filter: blur(10px);
+
+  transition: background-color 0.5s ease, color 0.5s ease;
 }
 
 .skills__list {
