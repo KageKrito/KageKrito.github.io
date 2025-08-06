@@ -15,7 +15,7 @@ const Contact = () => {
   }
 
   return (
-    <section className='section contact center' id='contact'>
+    <section className='section contact center' id='contact'  data-aos="fade-up">
       <h2 className='section__title'>Contact</h2>
       <div
         style={{

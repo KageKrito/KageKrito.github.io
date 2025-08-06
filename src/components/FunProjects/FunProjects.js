@@ -7,7 +7,7 @@ const FunProjects = () => {
   if (!funProjects.length) return null
 
   return (
-    <section id='funprojects' className='section projects'>
+    <section id='funprojects' className='section projects' data-aos="fade-up">
       <h2 className='section__title'>Fun Projects</h2>
 
       <div className='funprojects__grid'>

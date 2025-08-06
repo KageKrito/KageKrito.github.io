@@ -1,4 +1,6 @@
-import { useContext, useState } from 'react'
+import { useContext, useState, useEffect } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 import { ThemeContext } from './contexts/theme'
 import Header from './components/Header/Header'
 import About from './components/About/About'
@@ -18,6 +20,10 @@ const App = () => {
   const activeSection = useActiveSection()
   const [showResume, setShowResume] = useState(false)
   document.documentElement.className = themeName;
+
+  useEffect(() => {
+    AOS.init({ duration: 800, once: false });
+  }, [])
 
   return (
     <div
