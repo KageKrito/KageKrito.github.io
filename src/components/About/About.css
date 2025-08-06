@@ -24,8 +24,10 @@
   max-width: 800px;
   background-color: var(--clr-bg);
   border-radius: 1em;
-  box-shadow: var(--shadow);
   backdrop-filter: blur(10px);
+
+  background: var(--clr-textbox);
+  box-shadow: var(--shadow);
 }
 
 .about__desc,

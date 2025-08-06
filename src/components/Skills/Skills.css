@@ -2,6 +2,8 @@
   background-color: var(--clr-bg);
   max-width: 800px;
   margin: 0 auto;
+
+  background: var(--clr-textbox);
   border-radius: 1em;
   box-shadow: var(--shadow);
   backdrop-filter: blur(10px);

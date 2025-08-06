@@ -9,7 +9,7 @@
 }
 
 .light {
-  --clr-bg: #f8f8f8;
+  --clr-bg: #ececec;
   --clr-bg-alt: #fff;
   --clr-fg: #555;
   --clr-fg-alt: #444;
@@ -17,6 +17,7 @@
   --clr-fg-skillbar: #222;
   --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   --clr-logo-outline: 0;
+  --clr-textbox: linear-gradient(120deg, #f0f0f0 0%, #e6e6e6 100%);
 }
 
 .dark {
@@ -29,6 +30,7 @@
   --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   --clr-logo-outline: 1;
+  --clr-textbox: linear-gradient(120deg, #2f2f2f 0%, #2a2a2a 100%);
 }
 
 main {

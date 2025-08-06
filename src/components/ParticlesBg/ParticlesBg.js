@@ -1,6 +1,5 @@
 import { useEffect, useContext } from 'react'
 import { ThemeContext } from '../../contexts/theme'
-import './ParticlesBg.css'
 
 const ParticlesBg = () => {
   const [{ themeName }] = useContext(ThemeContext)

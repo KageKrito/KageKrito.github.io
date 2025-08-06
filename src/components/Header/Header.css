@@ -14,7 +14,7 @@
   top: 0;
   left: 0;
   right: 0;
-  height: 6em;
+  height: 4em;
   z-index: 5;
 
   background: var(--clr-header);
