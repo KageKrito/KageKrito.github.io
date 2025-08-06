@@ -20,7 +20,8 @@
 }
 
 .about__desc_container {
-  width: 800px;
+  width: 100%;
+  max-width: 800px;
   background-color: var(--clr-bg);
   border-radius: 1em;
   box-shadow: var(--shadow);
@@ -44,5 +45,13 @@
   .app .about {
     align-items: flex-start;
     margin-top: 2em;
+  }
+  .about__desc_container {
+    width: 378px;
+    margin-left: -1em;
+  }
+  .about__desc {
+    margin-left: 1em;
+    margin-right: 1em;
   }
 }

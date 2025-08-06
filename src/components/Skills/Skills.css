@@ -270,10 +270,11 @@
 
   .skills__list.flat-list .skills-list-container{
     width: 100%;
-    display: flex;
-    justify-content: left space-between;
-    flex-wrap: wrap;
-    gap: 22px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    margin-left: 1em;
+    margin-right: 1em;
   }
 
   .skills-list {
