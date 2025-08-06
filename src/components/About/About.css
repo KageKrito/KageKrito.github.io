@@ -13,7 +13,18 @@
 
 .about__desc {
   font-size: 1rem;
-  max-width: 800px;
+  max-width: 736px;
+  margin: 0 auto;
+  margin-top: 2em;
+  margin-bottom: 3em;
+}
+
+.about__desc_container {
+  width: 800px;
+  background-color: var(--clr-bg);
+  border-radius: 1em;
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(10px);
 }
 
 .about__desc,

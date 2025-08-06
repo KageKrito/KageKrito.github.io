@@ -11,6 +11,7 @@ import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import './App.css'
 import useActiveSection from './hooks/useActiveSection'
+import ParticlesBackground from './components/ParticlesBg/ParticlesBg'
 
 const App = () => {
   const [{ themeName }] = useContext(ThemeContext)
@@ -23,6 +24,7 @@ const App = () => {
       id='top'
       className={`${themeName} app`}
     >
+      <ParticlesBackground />
       <div className='header-container'>
         <Header className="header"/>
       </div>

@@ -15,7 +15,9 @@ const About = ({ showResume, setShowResume }) => {
       )}
 
       {role && <h2 className='about__role'>A {role}.</h2>}
+      <div className="about__desc_container">
       <div className='about__desc'>{description && description}</div>
+      </div>
 
       <div className='about__contact center'>
         <button type='button' onClick={() => setShowResume(prev => !prev)} className='btn btn--outline'>

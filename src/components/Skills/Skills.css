@@ -1,3 +1,12 @@
+.skills-section {
+  background-color: var(--clr-bg);
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 1em;
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(10px);
+}
+
 .skills__list {
   max-width: 450px;
   width: 95%;
