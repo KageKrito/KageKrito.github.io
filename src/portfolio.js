@@ -79,7 +79,7 @@ const about = {
     </>
   ),
   social: {
-    linkedin: 'https://linkedin.com',
+    linkedin: 'https://linkedin.com/in/oliver-heckel-aa152a374',
     github: 'https://github.com/KageKrito',
   },
 }
