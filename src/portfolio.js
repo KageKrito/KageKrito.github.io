@@ -70,12 +70,6 @@ const about = {
         Eberhard Karls University of Tübingen, Germany<br />
         Bachelor of Science, expected graduation in 2026
       </p>
-
-      <h4>Work</h4>
-      <p>
-        ...<br />
-        ....
-      </p>
     </>
   ),
   social: {
@@ -234,19 +228,19 @@ const skills = [
     short: 'BE',
     items: [
       {name: 'Java',
-        progress: '90',
+        progress: '85',
         logo: 'pictures/skill-logos/java-original.svg',
         logo_outline: 'pictures/skill-logos-outline/java-outline.svg'},
       {name: 'Python',
-        progress: '80',
+        progress: '75',
         logo: 'pictures/skill-logos/python-original.svg',
         logo_outline: 'pictures/skill-logos-outline/python-outline.svg'},
       {name: 'C++',
-        progress: '50',
+        progress: '40',
         logo: 'pictures/skill-logos/cplusplus-original.svg',
         logo_outline: 'pictures/skill-logos-outline/cplusplus-outline.svg'},
       {name: 'Scala',
-        progress: '65',
+        progress: '55',
         logo: 'pictures/skill-logos/scala-original.svg',
         logo_outline: 'pictures/skill-logos-outline/scala-outline.svg'},
     ]
@@ -256,7 +250,7 @@ const skills = [
     short: 'FE',
     items: [
       {name: 'HTML',
-        progress: '75',
+        progress: '70',
         logo: 'pictures/skill-logos/html5-original.svg',
         logo_outline: 'pictures/skill-logos-outline/html5-outline.svg'},
       {name: 'CSS',
@@ -264,11 +258,11 @@ const skills = [
         logo: 'pictures/skill-logos/css3-original.svg',
         logo_outline: 'pictures/skill-logos-outline/css3-outline.svg'},
       {name: 'JavaScript',
-        progress: '85',
+        progress: '75',
         logo: 'pictures/skill-logos/javascript-original.svg',
         logo_outline: 'pictures/skill-logos-outline/javascript-outline.svg'},
       {name: 'TypeScript',
-        progress: '85',
+        progress: '80',
         logo: 'pictures/skill-logos/typescript-original.svg',
         logo_outline: 'pictures/skill-logos-outline/typescript-outline.svg'},
     ]
@@ -300,15 +294,15 @@ const skills = [
         logo: 'pictures/skill-logos/numpy-original.svg',
         logo_outline: 'pictures/skill-logos-outline/numpy-outline.svg'},
       {name: 'PyTorch',
-        progress: '55',
+        progress: '45',
         logo: 'pictures/skill-logos/pytorch-original.svg',
         logo_outline: 'pictures/skill-logos-outline/pytorch-outline.svg'},
       {name: 'Jest',
-        progress: '70',
+        progress: '65',
         logo: 'pictures/skill-logos/jest-original.svg',
         logo_outline: 'pictures/skill-logos-outline/jest-outline.svg'},
       {name: 'React',
-        progress: '60',
+        progress: '55',
         logo: 'pictures/skill-logos/react-original.svg',
         logo_outline: 'pictures/skill-logos-outline/react-outline.svg'},
       {name: 'p5',
