@@ -61,7 +61,7 @@ const about = {
         Lidl Zentrallager STU in Kirchheim u. Teck, Germany<br />
         <br />
         Temporary Helper 2022<br />
-        Gustav Magenwirth GmbH & Co. KG in Hülben, Germany
+        Gustav Magenwirth GmbH & Co. KG in Hülben, Germany<br />
         <br />
         Working Student 2025/26<br />
         ElringKlinger AG in Neuffen, Germany
